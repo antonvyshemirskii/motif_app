@@ -1,0 +1,11 @@
+pandas
+numpy
+EntropyHub
+tqdm
+umap-learn
+matplotlib
+scikit-learn
+streamlit-plotly-events
+plotly
+streamlit
+h5py
