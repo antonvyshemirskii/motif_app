@@ -1,0 +1,16 @@
+version: '3'
+services:
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    volumes:
+      - /Users/antonvyshemirskyi/SOURCE_FILES:/app/temp_files
+    ports:
+      - "8080:8080"
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
